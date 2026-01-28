@@ -1,0 +1,31 @@
+1️⃣ Identifica dónde está instalado SAGE
+Normalmente:
+C:\Program Files\Sage\
+o C:\Program Files (x86)\Sage\
+
+2️⃣ Da permisos solo a esa carpeta
+En el PC del usuario (o vía GPO):
+Clic derecho en la carpeta de SAGE
+Propiedades → Seguridad → Editar
+Añade el usuario o un grupo (mejor un grupo AD, por ejemplo SAGE_Usuarios)
+Concede:
+    Modificar
+    Escritura
+    Lectura y ejecución
+
+⚠️ NO le des Control total, con Modificar suele ser suficiente.
+
+3️⃣ Permisos en el registro (MUY IMPORTANTE para SAGE)
+Muchos SAGE fallan al actualizar por el registro.
+Revisa estas rutas (depende versión):
+-----------------------------------------------------
+HKEY_LOCAL_MACHINE\SOFTWARE\Sage
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Sage
+-----------------------------------------------------
+Pasos:
+    regedit
+    Clic derecho → Permisos
+    Añade el usuario o grupo
+    Dale Control total o al menos Escritura
+
+👉 Esto no da permisos de admin, solo acceso a esas claves.
