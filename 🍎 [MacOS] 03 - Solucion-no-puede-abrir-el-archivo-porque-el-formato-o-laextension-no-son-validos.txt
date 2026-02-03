@@ -1,4 +1,20 @@
 =============================================================================
+[F O R M A · 0]::
+
+# problema de permisos en eservidor de archivos samba
+ls -le /Volumes/TU_RECURSO_SAMBA/ruta/archivo.xlsx
+
+# comparar con otro mac
+mount | grep smb
+
+# permisos de carpetas
+umount /Volumes/tu_share
+sudo rm -rf /var/db/samba
+rm -rf ~/Library/Preferences/com.apple.smb.server.plist
+rm -rf ~/Library/Preferences/com.apple.smb.client.plist
+
+
+=============================================================================
 [F O R M A · 1]::
 
 # Cierra Excel completamente
@@ -188,3 +204,4 @@ Si tampoco abre → 100% instalación dañada.
 👉 No es un problema de archivos
 👉 Es Excel / Office en macOS
 👉 Se soluciona reiniciando configuración o reinstalando
+
