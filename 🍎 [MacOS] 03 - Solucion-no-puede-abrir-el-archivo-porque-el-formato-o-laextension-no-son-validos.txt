@@ -1,9 +1,14 @@
-word
-~/Library/Containers/com.microsoft.Word/Data/Library/Preferences/
+=============================================================================
+[F O R M A · 0]::
 
-rm -rf ~/Library/Containers/com.microsoft.Word
-rm -rf ~/Library/Containers/com.microsoft.Excel
+# Pruebo desde la siguientes rutas (hago una copia en el escritorio y elimino dentro de dichas carpetas las caches, en el caso de que siga sin funcionar recupero del escritorio las que tenía)
+~/Library/Containers/com.microsoft.Word/Data/Library/Preferences
+~/Library/Containers/com.microsoft.Excel/Data/Library/Preferences
 
+# Si no funciona la forma anterior doy permisos a los archivos
+# Doy permisos a Word y Excel al disco completo y a carpetas desde ajustes del sistema
+# Anclo los dos programas de Word y Excel a items de inicio
+# una vez reinicie deberia funcionar siempre
 
 
 =============================================================================
@@ -212,5 +217,6 @@ Si tampoco abre → 100% instalación dañada.
 👉 No es un problema de archivos
 👉 Es Excel / Office en macOS
 👉 Se soluciona reiniciando configuración o reinstalando
+
 
 
