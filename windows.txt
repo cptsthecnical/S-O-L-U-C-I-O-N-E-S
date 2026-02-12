@@ -9,3 +9,12 @@ Cambiar frecuencia con la que el equipo estra en estado de suspensión
 *********************************************************************
 - Cambiar configuración avanzada de energía
   PCI Express > dministración de energia de estado de vinculos > Desactivar
+
+
+Administrador de dispositivos
+******************************
+Clic derecho en Inicio
+Administrador de dispositivos
+Adaptadores de red
+Doble clic en el Ethernet
+Pestaña Administración de energía
