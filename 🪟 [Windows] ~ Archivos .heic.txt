@@ -1,0 +1,23 @@
+## El problema está en que al abrir un archivo de .heic no se muestra la imágen,
+# creo que el problema está en los codex peor no he conseguido solucionarlo...
+
+
+# 1 - Compruebo desde la store de Windows que tenga instalada extensión.
+Extensión de imágenes HEIF
+
+# 2 - Si está instalada, compruebo en powershell
+Get-AppxPackage *HEVC*
+
+# 3 - Si está instalada, la elimino para instalarla de nuevo. (Para eliminarlo es importante eliminarlo de todos los usuarios ya que sino se quedará rastros y no desaparecerá desde la store).
+Get-AppxPackage -AllUsers *HEIF* | Remove-AppxPackage -AllUsers
+
+# 4 - Vuelvo a la store y lo instalo de nuevo.
+
+# 5 - Reinicio.
+
+# 6 - Compruebo en PowerShell, debería mostrarme los detalles (si no me muestra nada no está bien instalado el codex).
+Get-AppxPackage *HEVC*
+
+
+
+## 💥 Al final como no he conseguido solucionarlo he instalado el programa externo desde la Windows Store de "HEIC Viewer".
