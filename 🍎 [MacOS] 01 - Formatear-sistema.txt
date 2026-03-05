@@ -29,3 +29,8 @@
 
 # Hay un problema con Workshop que a veces se carg antes la carpeta que internet y no se consigue abrir 
 - Finder > ir > ir a > (servidor de archivos kodak) > (arrastrar hasta el último)
+
+========[2026/02/17]================================================================================
+
+# volver una downgrade, a una versión anterior desde macos
+https://www.youtube.com/watch?v=uQ4RZHehp0k
