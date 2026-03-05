@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+# cache de outlook
+~/Library/Group Containers/UBF8T346G9.Office/Outlook/Outlook 15 Profiles/Main Profile/Data
+
+# cache de archivos adjuntos
+~/Library/Caches/TemporaryItems/Outlook Temp
+
+----------------------------------------------------------------
+
+# otros
+- Tipo de archivo bloqueado
+- Archivo → Opciones → Complementos → Ir → desmarcar todos temporalmente.
+- firewall
