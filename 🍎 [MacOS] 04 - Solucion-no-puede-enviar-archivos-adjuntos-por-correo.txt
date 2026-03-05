@@ -1,0 +1,28 @@
+Mensaje de error:
+	[
+		Outlook cant send or save this message with the attached file:
+		Si quita los datos adjuntos, podrá guardar el borrador del mensaje...
+	]
+
+# Con este error me estado volviendo un poco loco pero me a funcionado el siguiente paso
+# No sé si a sido por casualidad, así que si me vuelve a ocurrir lo tengo que anotar:
+
+# Desvinculo Outlook (!important)
+Ajustes de sistema > Privacidad y seguridad > Archivos y carpetas > "desvincular Outlook"
+
+# Vuelvo a vincular outlook (!important)
+Ajustes de sistema > Privacidad y seguridad > Acceso total al disco > "vincular Outlook"
+
+# Automáticamente se a tenido que asociar, vuelvo a comprobar que esté creado (!important)
+Ajustes de sistema > Privacidad y seguridad > Archivos y carpetas > "comprobar Outlook"
+
+# reiniciar (!important)
+# Al reiniciar me tiene que dejar enviar un correo con adjuntos
+
+- Si falla probar lo mismo pero esta vez asociando a los "items de inicio" el Outlook
+
+-----------------------------------------------------------------------------------------
+
+# otros fallos por los que podría haber fallado
+- casualmente a dado el error con el ajunto del archivo a la vez que a fallado el inicio de la carpeta compartida de KODAK
+	+ Lo que quiere decir que si se repite este error y tiene el mismo problema al inicializar la carpeta compartida puede estar ahí el problema
