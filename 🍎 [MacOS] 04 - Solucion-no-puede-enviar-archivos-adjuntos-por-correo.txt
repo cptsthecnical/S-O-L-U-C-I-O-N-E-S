@@ -4,6 +4,24 @@ Mensaje de error:
 		Si quita los datos adjuntos, podrá guardar el borrador del mensaje...
 	]
 
+
+------------------------------------------------------------------------------------------------------------------------
+[F O R M A 1]:
+
+# El problema radica en concreto con la unidad de kodak,
+# si nada mas iniciar el pc aparece un fallo de que no se puede encontrar la unidad de kodak, no entiendo bien porque pero esta relaccionado ese error con lo del correo,
+# creo que se queda algún proceso en medio con un mal funcionamiento y hasta que no se resuelve no funciona el correo... Esto pasa aunque el adjunto no forme parte de esta unidad...
+
+- me dirijo a "items de inicio" y borro la unidad de kodak.
+- voy a ir > conectarme a un servidor y selecciono la de kodak, agrego el usuario para los macOS e importante selecciono recordar contraseña.
+- vuelvo a "items de inicio" y vuelvo a seleccionar la nueva unidad.
+# a partir de ahora ya me deberia dejar adjuntar archivos y enviar .
+- reinicio.
+- pruebo enviar archivos adjuntos.
+
+------------------------------------------------------------------------------------------------------------------------
+[F O R M A 2]:
+
 # Con este error me estado volviendo un poco loco pero me a funcionado el siguiente paso
 # No sé si a sido por casualidad, así que si me vuelve a ocurrir lo tengo que anotar:
 
@@ -21,8 +39,4 @@ Ajustes de sistema > Privacidad y seguridad > Archivos y carpetas > "comprobar O
 
 - Si falla probar lo mismo pero esta vez asociando a los "items de inicio" el Outlook
 
------------------------------------------------------------------------------------------
-
-# otros fallos por los que podría haber fallado
-- casualmente a dado el error con el ajunto del archivo a la vez que a fallado el inicio de la carpeta compartida de KODAK
-	+ Lo que quiere decir que si se repite este error y tiene el mismo problema al inicializar la carpeta compartida puede estar ahí el problema
+------------------------------------------------------------------------------------------------------------------------
